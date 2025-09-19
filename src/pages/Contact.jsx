@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 // Inline backend URL
-const BASE_URL = import.meta.env.VITE_API_URL || "https://portfolio-backend-0m52.onrender.com";
+const BASE_URL = import.meta.env.VITE_API_URL || "https://portfolio-backend-0m52.onrender.com/api/contact/";
 
 const Contact = () => {
   const [form, setForm] = useState({
