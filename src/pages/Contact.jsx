@@ -54,7 +54,7 @@ const Contact = () => {
     if (Object.keys(e).length) return;
 
     try {
-      const res = await fetch(`${BASE_URL}/contact/`, {
+      const res = await fetch(`${BASE_URL}/api/contact/`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
